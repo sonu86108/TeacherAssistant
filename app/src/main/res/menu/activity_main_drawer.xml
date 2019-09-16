@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Management">
+            <menu>
+        <item
+            android:id="@+id/nav_home"
+
+            android:title="@string/menu_home" />
+
+                <item
+                    android:id="@+id/nav_admin_Courses"
+                    android:title="Courses"/>
+                <item
+                    android:id="@+id/nav_admin_teachers"
+                    android:title="Teachers"/>
+                <item
+                    android:title="Students"
+                    android:id="@+id/nav_admin_students"/>
+                <item
+                    android:title="Take Attendance"
+                    android:id="@+id/nav_teacher_takeAttendance"/>
+        <!--<item
+            android:title="Take Attendance"
+            android:id="@+id/nav_takeAttendance"/>
+            -->
+
+            </menu>
+        </item>
+    </group>
+    <item android:title="Others">
+        <menu>
+            <item android:title="Settings"
+                android:id="@+id/nav_settings"/>
+            <item
+                android:title="Log out"
+                android:id="@+id/nav_logout"/>
+        </menu>
+    </item>
+
+</menu>

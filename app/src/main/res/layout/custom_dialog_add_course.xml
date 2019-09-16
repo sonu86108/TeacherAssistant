@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="400dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/background3"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/idTVTitile"
+        android:textColor="@color/cardview_light_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="ADD COURSE"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/idTVAboveEditText"
+        android:textColor="@color/cardview_light_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Course"
+        android:textSize="20dp" />
+
+    <EditText
+        android:background="@drawable/rounded_edittext"
+        android:textColorHint="@color/cardview_light_background"
+        android:id="@+id/id_enter_course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:hint="Enter New course" />
+
+    <TextView
+        android:id="@+id/idTVAboveSpi"
+        android:textColor="@color/cardview_light_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Assign A Teacher"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:background="@drawable/rounded_edittext"
+        android:id="@+id/id_spinner_select_teacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:background="@drawable/rounded_edittext"
+        android:id="@+id/idButtonSaveCourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="save" />
+</LinearLayout>

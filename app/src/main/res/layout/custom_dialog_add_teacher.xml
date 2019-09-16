@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="600dp"
+    android:layout_gravity="center"
+    android:background="@drawable/background3"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="ADD TEACHER "
+        android:textColor="@color/cardview_light_background"
+        android:textSize="35dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Teacher Name"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/idStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Enter New Teacher" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Enter Email"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/idEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Enter Email Address"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Enter Password"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/idPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Enter Password"
+        android:inputType="textPassword" />
+
+
+
+    <TextView
+        android:id="@+id/textSelectCourseAbove"
+        android:layout_marginTop="10dp"
+        android:text="Select Course"
+        android:textSize="20dp"
+        android:textColor="@color/cardview_light_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/selectCourse"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/idBtnSaveStudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/rounded_edittext"
+        android:text="save" />
+</LinearLayout>

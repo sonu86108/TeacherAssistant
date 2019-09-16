@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="400dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/background3"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:textColor="@color/cardview_light_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="EDIT COURSE"
+        android:textSize="35dp" />
+
+    <TextView
+        android:textColor="@color/cardview_light_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course Name"
+        android:textSize="20dp" />
+
+   <TextView
+      android:background="@drawable/rounded_edittext"
+       android:id="@+id/id_text_course"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Course_name"
+       android:layout_marginTop="5dp"
+       android:textSize="20dp"/>
+
+    <TextView
+        android:textColor="@color/cardview_light_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Assign New Teacher"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:background="@drawable/rounded_edittext"
+        android:textColor="@color/cardview_light_background"
+        android:id="@+id/id_spinner_select_new_teacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" />
+
+    <Button
+      android:background="@drawable/rounded_edittext"
+        android:id="@+id/idButtonSaveCourseEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="save" />
+</LinearLayout>
